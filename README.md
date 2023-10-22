@@ -1,14 +1,7 @@
-# Welcome to your CDK TypeScript project
+# Serverless Newsletter
 
-This is a blank project for CDK development with TypeScript.
+This project is a serverless project of backend services used to handle the newsletter subscription and sending emails to the subscribers.
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+## Architecture
 
-## Useful commands
-
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `cdk deploy`      deploy this stack to your default AWS account/region
-* `cdk diff`        compare deployed stack with current state
-* `cdk synth`       emits the synthesized CloudFormation template
+The project involves API Gateway, AWS Step Functions and Amazon DynamoDB.
